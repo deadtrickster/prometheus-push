@@ -159,5 +159,5 @@ to_string_(Val) ->
 
 construct_url(Address, Job, GroupingKey) ->
   [Address,
-   "/metrics/job/", http_uri:encode(Job),
+   "/metrics/job/", http_uri:encode(to_string(Job)),
    encode_grouping_key(GroupingKey)].

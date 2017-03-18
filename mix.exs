@@ -23,7 +23,7 @@ defmodule PrometheusPush.Mixfile do
 
   def application do
     [applications: [:logger,
-                    :prometheus]]
+                    :prometheus_ex]]
   end
 
   defp description do
@@ -46,6 +46,6 @@ defmodule PrometheusPush.Mixfile do
   end
 
   defp deps do
-    [{:prometheus, "~> 3.2"}]
+    [{:prometheus_ex, "~> 1.2"}]
   end
 end
