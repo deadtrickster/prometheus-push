@@ -2,7 +2,7 @@
 
 # prometheus_push #
 
-Copyright (c) 2016 Ilya Khaprov <<i.khaprov@gmail.com>>.
+Copyright (c) 2017 Ilya Khaprov <<i.khaprov@gmail.com>>.
 
 __Version:__ 0.0.1
 
@@ -43,3 +43,11 @@ MIT
 [Travis link]: https://travis-ci.org/deadtrickster/prometheus_push
 [Coveralls badge]: https://coveralls.io/repos/github/deadtrickster/prometheus_push/badge.svg?branch=master
 [Coveralls link]: https://coveralls.io/github/deadtrickster/prometheus_push?branch=master
+
+
+## Modules ##
+
+
+<table width="100%" border="0" summary="list of modules">
+<tr><td><a href="https://github.com/deadtrickster/prometheus_push/blob/master/doc/prometheus_push.md" class="module">prometheus_push</a></td></tr></table>
+
