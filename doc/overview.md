@@ -9,6 +9,44 @@
 [![Build Status][Travis badge]][Travis link]
 [![Coverage Status][Coveralls badge]][Coveralls link]
 
+## Example
+
+Erlang
+
+<pre lang="erlang">
+prometheus_counter:new([{name, qwe},
+                        {labels, []},
+                        {help, "qwe qwe"}]).
+prometheus_counter:inc(qwe).
+
+prometheus_counter:new([{name, foo},
+                        {labels, []},
+                        {help, "foo foo"}]).
+prometheus_counter:inc(foo, 10).
+prometheus_push:push(#{job => "qwe",
+                       grouping_key => [{"abra", "kadabra"}]}).
+</pre>
+
+Elixir
+
+<pre lang="elixir">
+
+use Prometheus.Metric
+
+Counter.new([name: :qwe,
+             labels: [],
+             help: "qwe qwe"])
+Counter.inc(:qwe)
+
+Counter.new([name: :foo,
+             labels: [],
+             help: "foo foo"])
+Counter.inc(:foo, 10)
+
+Prometheus.Push.push(%{job: "qwe",
+                       grouping_key: [{"abra", "kadabra"}]})
+</pre>
+
 ## Contributing
 
 Section order:

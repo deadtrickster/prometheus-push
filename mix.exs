@@ -46,6 +46,11 @@ defmodule PrometheusPush.Mixfile do
   end
 
   defp deps do
-    [{:prometheus_ex, "~> 1.2"}]
+    [{:prometheus_ex, "~> 1.2"},
+
+     {:credo, git: "https://github.com/rrrene/credo", only: [:dev, :test]},
+
+     {:ex_doc, "~> 0.15", only: :dev},
+     {:earmark, ">= 0.0.0", only: :dev}]
   end
 end
