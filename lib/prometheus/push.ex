@@ -1,4 +1,9 @@
 defmodule Prometheus.Push do
+
+  @moduledoc """
+
+  """
+
   def push(options) do
     :prometheus_push.push(options)
   end
