@@ -115,7 +115,7 @@ MIT
 [Hex badge]: https://img.shields.io/hexpm/v/prometheus_push.svg?maxAge=2592000?style=plastic
 [Hex link]: https://hex.pm/packages/prometheus_push
 [Hex downloads badge]: https://img.shields.io/hexpm/dt/prometheus-push.svg?maxAge=2592000
-[Travis badge]: https://travis-ci.org/deadtrickster/prometheus-push.svg?branch=version-3
+[Travis badge]: https://travis-ci.org/deadtrickster/prometheus-push.svg?branch=master
 [Travis link]: https://travis-ci.org/deadtrickster/prometheus-push
 [Coveralls badge]: https://coveralls.io/repos/github/deadtrickster/prometheus-push/badge.svg?branch=master
 [Coveralls link]: https://coveralls.io/github/deadtrickster/prometheus_push?branch=master
