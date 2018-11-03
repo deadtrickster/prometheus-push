@@ -16,7 +16,7 @@ __Version:__ 0.0.1
 
 ## Example
 
-Erlang
+### Erlang
 
 ```erlang
 
@@ -35,7 +35,7 @@ prometheus_push:push(#{job => "qwe",
 
 ```
 
-Elixir
+### Elixir
 
 ```elixir
 
@@ -55,6 +55,15 @@ Counter.inc(:foo, 10)
 Prometheus.Push.push(%{job: "qwe",
                        grouping_key: [{"abra", "kadabra"}]})
 
+```
+
+Mix config
+
+```elixir
+config: :prometheus,
+    pushgateway: [
+        address: "localhost:9091"
+    ]
 ```
 
 ## Integrations
