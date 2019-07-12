@@ -60,7 +60,7 @@ Prometheus.Push.push(%{job: "qwe",
 Mix config
 
 ```elixir
-config: :prometheus,
+config :prometheus,
     pushgateway: [
         address: "localhost:9091"
     ]
