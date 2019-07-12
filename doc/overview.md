@@ -1,6 +1,6 @@
 @copyright 2017 Ilya Khaprov <<i.khaprov@gmail.com>>.
 @title Prometheus.io Pushgateway client.
-@version 0.0.1
+@version 0.1.0
 
 @doc
 
@@ -101,6 +101,6 @@ MIT
 [Hex link]: https://hex.pm/packages/prometheus_push
 [Hex downloads badge]: https://img.shields.io/hexpm/dt/prometheus-push.svg?maxAge=2592000
 [Travis badge]: https://travis-ci.org/deadtrickster/prometheus-push.svg?branch=version-3
-[Travis link]: https://travis-ci.org/deadtrickster/prometheus-push
+[Travis link]: https://travis-ci.org/tonnenpinguin/prometheus-push.svg?branch=master
 [Coveralls badge]: https://coveralls.io/repos/github/deadtrickster/prometheus-push/badge.svg?branch=master
 [Coveralls link]: https://coveralls.io/github/deadtrickster/prometheus_push?branch=master
