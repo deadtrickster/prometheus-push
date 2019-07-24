@@ -62,7 +62,18 @@ Mix config
 ```elixir
 config :prometheus,
     pushgateway: [
-        address: "localhost:9091"
+        address: "http://localhost:9091"
+    ]
+```
+
+If you require Basic Authentication to access the pushgateway add the following config keys:
+
+```elixir
+config :prometheus,
+    pushgateway: [
+        address: "http://localhost:9091",
+        auth_username: "<USERNAME>",
+        auth_password: "<PASSWORD>"
     ]
 ```
 

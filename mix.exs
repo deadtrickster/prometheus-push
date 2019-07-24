@@ -26,7 +26,7 @@ defmodule PrometheusPush.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :prometheus_ex]]
+    [applications: [:logger, :prometheus_ex], extra_applications: [:inets, :ssl]]
   end
 
   defp description do
