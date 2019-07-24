@@ -1,13 +1,11 @@
 sudo: false
 language: elixir
 elixir:
-  - 1.6
-  - 1.7
+  - 1.8
+  - 1.9
 otp_release:
-  - 20.0
-  - 20.1
-  - 20.2
   - 20.3
+  - 21.2
 before_script:
   - wget https://s3.amazonaws.com/rebar3/rebar3
   - chmod +x rebar3

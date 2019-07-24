@@ -1,6 +1,6 @@
 @copyright 2017 Ilya Khaprov <<i.khaprov@gmail.com>>.
 @title Prometheus.io Pushgateway client.
-@version 0.0.1
+@version 0.1.0
 
 @doc
 
